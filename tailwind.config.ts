@@ -17,7 +17,8 @@ const config: Config = {
           500: '#0070F3',
           600: '#2F6FEB',
         },
-      },
+      }
+
     },
     keyframes: {
       shimmer: {
@@ -28,5 +29,6 @@ const config: Config = {
     },
   },
   plugins: [require('@tailwindcss/forms')],
+  darkMode:'class',
 };
 export default config;
